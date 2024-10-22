@@ -7,7 +7,7 @@ resources:
 configMapGenerator:
 - name: my-demo-config
   literals:
-    - MY_NAMESPACE=my-cluster-operator-namespace
+    - MY_NAMESPACE=emojis
     - MY_SANDBOX_ID=.apps.lk3-poc-use2-r1.rttb.p1.openshiftapps.com
 
 secretGenerator:
