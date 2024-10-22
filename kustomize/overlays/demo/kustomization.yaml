@@ -7,13 +7,13 @@ resources:
 configMapGenerator:
 - name: my-demo-config
   literals:
-    - MY_NAMESPACE=<YOUR_NAMESPACE_HERE...>
-    - MY_SANDBOX_ID=<YOUR_SANDBOX_ID_HERE...>
+    - MY_NAMESPACE=my-cluster-operator-namespace
+    - MY_SANDBOX_ID=.apps.lk3-poc-use2-r1.rttb.p1.openshiftapps.com
 
 secretGenerator:
 - name: mastodon-api
   literals:
-    - access-token=<YOUR_ACCESS_TOKEN_HERE...>
+    - access-token=sha256~RZx0iESmPplpfs26SuNLToCjyGtkBDD6U0SoRpa5ApE
 
 vars:
 - name: MY_NAMESPACE
